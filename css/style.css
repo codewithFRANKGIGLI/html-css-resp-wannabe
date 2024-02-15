@@ -129,8 +129,7 @@ img {
  ************************************************/
 @media screen and (max-width:1160px) {
     .container {
-        width: auto;
-        max-width: 1140px;
+        width: 100%;
     }
 }
 @media screen and (max-width:480px) {
@@ -139,5 +138,19 @@ img {
     }
     .row .col {
         width: 100%;
+    }
+    .row .col:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    .why-us {
+        background-color: #222222;
+        margin-bottom: 0;
+        padding-top: 3rem;
+    }
+    .steps {
+        margin: 0;
+    }
+    .lessons {
+        padding-bottom: 3rem;
     }
 }
